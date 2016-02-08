@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C445DA31C6811E4009889CC /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C445D9E1C6811E4009889CC /* bite.wav */; };
+		8C445DA41C6811E4009889CC /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C445D9F1C6811E4009889CC /* cave-music.mp3 */; };
+		8C445DA51C6811E4009889CC /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C445DA01C6811E4009889CC /* death.wav */; };
+		8C445DA61C6811E4009889CC /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C445DA11C6811E4009889CC /* heart.wav */; };
+		8C445DA71C6811E4009889CC /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C445DA21C6811E4009889CC /* skull.wav */; };
 		8CA5CB851C62A18A006DA9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5CB841C62A18A006DA9D4 /* AppDelegate.swift */; };
 		8CA5CB871C62A18A006DA9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5CB861C62A18A006DA9D4 /* ViewController.swift */; };
 		8CA5CB8A1C62A18A006DA9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CB881C62A18A006DA9D4 /* Main.storyboard */; };
 		8CA5CB8C1C62A18A006DA9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CB8B1C62A18A006DA9D4 /* Assets.xcassets */; };
 		8CA5CB8F1C62A18A006DA9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA5CB8D1C62A18A006DA9D4 /* LaunchScreen.storyboard */; };
+		8CA5CB971C64369F006DA9D4 /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5CB961C64369F006DA9D4 /* DragImage.swift */; };
+		8CA5CB991C643EE0006DA9D4 /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5CB981C643EE0006DA9D4 /* MonsterImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C445D9E1C6811E4009889CC /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		8C445D9F1C6811E4009889CC /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		8C445DA01C6811E4009889CC /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		8C445DA11C6811E4009889CC /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		8C445DA21C6811E4009889CC /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		8CA5CB811C62A18A006DA9D4 /* myLittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myLittleMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA5CB841C62A18A006DA9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CA5CB861C62A18A006DA9D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		8CA5CB8B1C62A18A006DA9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CA5CB8E1C62A18A006DA9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CA5CB901C62A18A006DA9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA5CB961C64369F006DA9D4 /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		8CA5CB981C643EE0006DA9D4 /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,11 @@
 		8CA5CB781C62A18A006DA9D4 = {
 			isa = PBXGroup;
 			children = (
+				8C445D9E1C6811E4009889CC /* bite.wav */,
+				8C445D9F1C6811E4009889CC /* cave-music.mp3 */,
+				8C445DA01C6811E4009889CC /* death.wav */,
+				8C445DA11C6811E4009889CC /* heart.wav */,
+				8C445DA21C6811E4009889CC /* skull.wav */,
 				8CA5CB831C62A18A006DA9D4 /* myLittleMonster */,
 				8CA5CB821C62A18A006DA9D4 /* Products */,
 			);
@@ -56,10 +75,12 @@
 			children = (
 				8CA5CB841C62A18A006DA9D4 /* AppDelegate.swift */,
 				8CA5CB861C62A18A006DA9D4 /* ViewController.swift */,
+				8CA5CB961C64369F006DA9D4 /* DragImage.swift */,
 				8CA5CB881C62A18A006DA9D4 /* Main.storyboard */,
 				8CA5CB8B1C62A18A006DA9D4 /* Assets.xcassets */,
 				8CA5CB8D1C62A18A006DA9D4 /* LaunchScreen.storyboard */,
 				8CA5CB901C62A18A006DA9D4 /* Info.plist */,
+				8CA5CB981C643EE0006DA9D4 /* MonsterImage.swift */,
 			);
 			path = myLittleMonster;
 			sourceTree = "<group>";
@@ -121,6 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C445DA71C6811E4009889CC /* skull.wav in Resources */,
+				8C445DA31C6811E4009889CC /* bite.wav in Resources */,
+				8C445DA51C6811E4009889CC /* death.wav in Resources */,
+				8C445DA61C6811E4009889CC /* heart.wav in Resources */,
+				8C445DA41C6811E4009889CC /* cave-music.mp3 in Resources */,
 				8CA5CB8F1C62A18A006DA9D4 /* LaunchScreen.storyboard in Resources */,
 				8CA5CB8C1C62A18A006DA9D4 /* Assets.xcassets in Resources */,
 				8CA5CB8A1C62A18A006DA9D4 /* Main.storyboard in Resources */,
@@ -134,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA5CB991C643EE0006DA9D4 /* MonsterImage.swift in Sources */,
 				8CA5CB871C62A18A006DA9D4 /* ViewController.swift in Sources */,
+				8CA5CB971C64369F006DA9D4 /* DragImage.swift in Sources */,
 				8CA5CB851C62A18A006DA9D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +313,7 @@
 				8CA5CB951C62A18A006DA9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
