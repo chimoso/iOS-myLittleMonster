@@ -64,7 +64,7 @@ class ViewController: UIViewController {
             let url = NSURL(fileURLWithPath: resourcePath!)
             try musicPlayer = AVAudioPlayer(contentsOfURL: url)
             
-            // The smashed-together version of creating an audio player...
+            // The one-liner version of creating an audio player...
             try sfxBiteSound = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("bite", ofType: "wav")!))
             try sfxHeartSound = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("heart", ofType: "wav")!))
             try sfxDeathSound = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("death", ofType: "wav")!))
